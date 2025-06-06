@@ -1628,13 +1628,13 @@
                     </div>
                     <div class="col-md-3">
                       <label for="subdisEdit" class="form-label">ตำบล</label>
-                      <select name="subdisEdit" id="subdisEdit" class="form-control" required>
+                      <select name="subdisEdit" id="subdisEdit" onchange="getSubDistrict(this)" class="form-control" required>
                         <option value="">เลือกตำบล</option>
                       </select>
                     </div>
                     <div class="col-md-3">
                       <label for="govappEdit" class="form-label">หน่วยงานให้การอนุญาต</label>
-                      <select name="govappEdit" id="govappEdit" class="form-control" required>
+                      <select name="govappEdit" id="govappEdit" onchange="getGovApp(this)" class="form-control" required>
                         <option value="">เลือกองค์กรปกครองส่วนท้องถิ่น</option>
                       </select>
                     </div>
@@ -7137,6 +7137,7 @@
       <script>
         function getDistrict(obj) {
           let id = obj.value
+          $("#dis_text").val(id)
           if (id == "") {
             $("#subdis").empty()
             $("#subdis").append('<option value="">เลือกตำบล</option>')
@@ -7172,6 +7173,10 @@
             })
           }
         }
+        
+        function getSubDistrict(obj) {$("#subdis_text").val(obj.value);}
+        
+        function getGovApp(obj) {$("#govapp_text").val(obj.value);}
       </script>
     <!-- getDistrict(this) -->
 
