@@ -7,65 +7,56 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	  
+    
     <!-- https://cdn.jsdelivr.net/gh/ -->
     <!-- https://drive.google.com/uc?id= -->
-	  
+    
     <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAzP8AAAD//wD/AAAAAKX/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREREAAAAAAAAAAABVUAMABEQCAFBVAwAABAIAUAUDAAAEAgBQBQMAAAQCAFVVAzMERAIAUAUDAAQAAgBQBQMABAACAFBVAwAEAAIAVVADMwREAgAAAAAAAAAAABEREREREREAAAAAAAAAAAAAAAAAAAAADAAwAAgAEAAP//AACNxQAApfUAALX1AAC19QAAhEUAALXdAAC13QAApd0AAIxFAAD//wAAgAEAAMADAADgBwAA" type="image/x-icon">
-	  
+    
     <title>ระบบการอบรมหลักสูตรผู้สัมผัสอาหาร ตามกฏกระทรวงสุขลักษณะของสถานที่จำหน่ายอาหาร พ.ศ. ๒๕๖๑</title>
-	  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href=".\libs\font\Sarabun.css">
     <style>*{font-family:"Sarabun",Sarabun;}</style>
-	  
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
-	  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.min.css" integrity="sha256-NWFDlc+2O5YBqGykjREpkSKDMB6yEu5qPecoRrhcsC0=" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js" integrity="sha256-WjwoxFTbs4JzyDmrHgK4VgR+Dz7he8HYwCbocAlNn9k=" crossorigin="anonymous"></script>
-	  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" integrity="sha256-Yg7qJLDO4djMg5XIDylc8ue2+rliSTwmtJqNQrY6Tck=" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/dist/boxicons.min.js"></script>
-	  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css" integrity="sha256-TBe0l9PhFaVR3DwHmA2jQbUf1y6yQ22RBgJKKkNkC50=" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/js/all.min.js" integrity="sha256-BAR0H3Qu2PCfoVr6CtZrcnbK3VKenmUF9C6IqgsNsNU=" crossorigin="anonymous"></script>
-	  
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-	  
-    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.min.js" integrity="sha384-LiV1KhVIIiAY/+IrQtQib29gCaonfR5MgtWzPCTBVtEVJ7uYd0u8jFmf4xka4WVy" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.bootstrap5.min.js" integrity="sha384-G85lmdZCo2WkHaZ8U1ZceHekzKcg37sFrs4St2+u/r2UtfvSDQmQrkMsEx4Cgv/W" crossorigin="anonymous"></script> 
-    <link href="https://cdn.datatables.net/2.3.1/css/dataTables.bootstrap5.min.css" rel="stylesheet" integrity="sha384-5hBbs6yhVjtqKk08rsxdk9xO80wJES15HnXHglWBQoj3cus3WT+qDJRpvs5rRP2c" crossorigin="anonymous">
-	  
-    <script src="https://cdn.datatables.net/buttons/3.2.3/js/dataTables.buttons.min.js" integrity="sha384-zlMvVlfnPFKXDpBlp4qbwVDBLGTxbedBY2ZetEqwXrfWm+DHPvVJ1ZX7xQIBn4bU" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/buttons/3.2.3/js/buttons.bootstrap5.min.js" integrity="sha384-BdedgzbgcQH1hGtNWLD56fSa7LYUCzyRMuDzgr5+9etd1/W7eT0kHDrsADMmx60k" crossorigin="anonymous"></script>
-    <link href="https://cdn.datatables.net/buttons/3.2.3/css/buttons.bootstrap5.min.css" rel="stylesheet" integrity="sha384-DJhypeLg79qWALC844KORuTtaJcH45J+36wNgzj4d1Kv1vt2PtRuV2eVmdkVmf/U" crossorigin="anonymous">
-    <script src="https://cdn.datatables.net/buttons/3.2.3/js/buttons.colVis.min.js" integrity="sha384-v0wzF6NECWiQyIain/Wacl6wEYr6NDJRus6qpckumPIngNI9Zo0sDMon5lBh9Np1" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/buttons/3.2.3/js/buttons.html5.min.js" integrity="sha384-+E6fb8f66UPOVDHKlEc1cfguF7DOTQQ70LNUnlbtywZiyoyQWqtrMjfTnWyBlN/Y" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/buttons/3.2.3/js/buttons.print.min.js" integrity="sha384-FvTRywo5HrkPlBKFrm2tT8aKxIcI/VU819roC/K/8UrVwrl4XsF3RKRKiCAKWNly" crossorigin="anonymous"></script>
-	  
-    <script src="https://cdn.datatables.net/responsive/3.0.4/js/dataTables.responsive.min.js" integrity="sha384-A6In5tKqlvPZKDpH+ei4A3A4TZrEsyvvN2Fe+oCB1IaQfGD5HNqDIxwjztNKSGDd" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/responsive/3.0.4/js/responsive.bootstrap5.js" integrity="sha384-hyp/YDWGBMFqg7pJuS+y+2VWJkwnOyX+oMN9fWcxINo2flqjC/SdNaHj8LIV4zKJ" crossorigin="anonymous"></script>
-    <link href="https://cdn.datatables.net/responsive/3.0.4/css/responsive.bootstrap5.min.css" rel="stylesheet" integrity="sha384-seyUnB//1QOFEqox9uI7YTLBgz9jBwFRqZvsEPFrTw6NAsFEo70nhBWsQfODqiYA" crossorigin="anonymous">
-	  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js" integrity="sha384-VFQrHzqBh5qiJIU0uGU5CIW3+OWpdGGJM9LBnGbuIH2mkICcFZ7lPd/AAtI7SNf7" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/50c02838bd45e31/js/vfs_fonts.js"></script>
+    
+    <script src=".\libs\jquery\jquery-3.7.1.js"></script>
+    <script src=".\libs\loadingoverlay\loadingoverlay.min.js"></script>
+    
+    <link rel="stylesheet" href=".\libs\bootstrap\bootstrap.min.css">
+    <script src=".\libs\bootstrap\bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href=".\libs\boxicons\boxicons.min.css">
+    <script src=".\libs\boxicons\boxicons.min.js"></script>
+    
+    <link rel="stylesheet" href=".\libs\fontawesome\fontawesome.min.css">
+    <script src=".\libs\fontawesome\fontawesome.min.js"></script>
+    
+    <link rel="stylesheet" href=".\libs\sweetalert\sweetalert.min.css">
+    <script src=".\libs\sweetalert\sweetalert.all.min.js"></script>
+    
+    <link rel="stylesheet" href=".\libs\dataTables\dataTables.bootstrap5.min.css">
+    <script src=".\libs\dataTables\dataTables.bootstrap5.min.js"></script>
+    
+    <link rel="stylesheet" href=".\libs\buttons\buttons.bootstrap5.min.css">
+    <script src=".\libs\buttons\buttons.bootstrap5.min.js"></script>
+    <script src=".\libs\buttons\buttons.colVis.min.js"></script>
+    <script src=".\libs\buttons\buttons.html5.min.js"></script>
+    <script src=".\libs\buttons\buttons.print.min.js"></script>
+    
+    <script src=".\libs\jszip\jszip.min.js"></script>
+    
+    <script src=".\libs\pdfmake\pdfmake.min.js"></script>
     
     <script>
-      $.LoadingOverlay("show")
-      var forms = document.querySelectorAll("form")
+      $.LoadingOverlay("show");
+      var forms = document.querySelectorAll("form");
       window.onload = () => {
-        $.LoadingOverlay("hide")
+        $.LoadingOverlay("hide");
         for (var i = 0; i < forms.length; i++) {
           forms[i].addEventListener("submit", event => {
-            event.preventDefault()
-          })
-        }
-      }
+            event.preventDefault();
+          });
+        };
+      };
     </script>
   </head>
   <body>
